@@ -80,7 +80,7 @@ st.markdown(
     .timeline-event {
         position: relative;
         margin: 0px 0;
-        margin-top: 20px;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         width: 100%;
@@ -109,7 +109,7 @@ st.markdown(
         font-size: 14px;
     }
    .timeline-img {
-        margin-left: 200px; /* Space between dot and text */
+        margin-left: 120px; /* Space between dot and text */
         font-size: 14px;
     }
    
