@@ -6,14 +6,17 @@
 # fifth segment about my hobbies
 import streamlit as st 
 
-
+st.set_page_config(layout="wide")
 # center image
 st.markdown(
     """
     <style>
     .main .block-container {
         max-width: 1400px;  /* Adjust this value as needed */
-
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
     }
     .center {
         display: block;
@@ -397,48 +400,3 @@ st.caption("🚀 Thank you for visiting my page"
 
 
 
-
-# center image
-st.markdown(
-    """
-    <style>
-    .main .block-container {
-        max-width: 1400px;  /* Adjust this value as needed */
-
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-     .header-container {
-        position: relative;
-        height: 300px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 2.5em;
-        font-weight: bold;
-        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    }
-    .header-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 0;
-    }
-    .note{
-     position:absolute;
-     font-size: 0.9em;
-
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
