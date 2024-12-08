@@ -1,0 +1,4 @@
+.venv
+*.mov
+*.mp4
+*.ipynb

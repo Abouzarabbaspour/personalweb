@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personalweb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: personalweb
+  template:
+    metadata:
+      labels:
+        app: personalweb
+    spec:
+      containers:
+      - name: personalweb-container
+        image: europe-west4-docker.pkg.dev/personalweb/repo-nomad/personalweb:latest
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: gcs-key-volume
+          mountPath: /secrets
+          readOnly: true
+      volumes:
+      - name: gcs-key-volume
+        secret:
+          secretName: gcs-key
