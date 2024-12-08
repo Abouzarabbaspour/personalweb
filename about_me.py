@@ -124,7 +124,7 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        max-width: 80%;  /* Adjust this value as needed */
+        max-width: 100%;  /* Adjust this value as needed */
         padding-top: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
