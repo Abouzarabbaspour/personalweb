@@ -5,6 +5,7 @@
 # fourth segment about my skills
 # fifth segment about my hobbies
 import streamlit as st 
+import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 # center image
@@ -12,7 +13,7 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        max-width: 1400px;  /* Adjust this value as needed */
+        max-width: 80%;  /* Adjust this value as needed */
         padding-top: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -173,11 +174,10 @@ st.markdown(
 # st.image("./res/benamekhoda.png", use_column_width=False, width=90)
 
 
-
 st.markdown("""
                 <div class="header-container">
                         <video class="header-video" autoplay muted loop>
-                                <source src="https://rr3---sn-5hne6nz6.googlevideo.com/videoplayback?expire=1733698721&ei=QdBVZ9-LD8O_vcAPh8aYwQ4&ip=117.5.146.101&id=o-AAgvV4rv9nCjArxfG8iIFwMpWPxf05DMdXi_hHqZlOwW&itag=137&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AQn3pFTs5ecgbILik8WX7Imlo0T-YDRj9yt_j5Kaq2P5a3fB7YaMFQyfqtwSUJzPbQWfDdp7l4FGfGgP&vprv=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=356917681&dur=7488.582&lmt=1730920060203619&keepalive=yes&fexp=24350590,24350675,24350705,24350737,24350850,51326932,51335594,51347746&c=ANDROID_VR&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAP4L8PnuK44GueDgH84EZMtuJ2l-i5n_3iOq3IKUilx2AiA3Gu-oVjN9gDDL2lBEUf5QCKjk7i0GnMbc06P9VMxXPw%3D%3D&rm=sn-8pxuuxa-i5odr7s,sn-8pxuuxa-i5o6d7l&rrc=79,79,80&req_id=52c67fc005a9a3ee&cmsv=e&redirect_counter=3&cm2rm=sn-i3bd67l&cms_redirect=yes&met=1733677145,&mh=si&mip=85.146.125.156&mm=34&mn=sn-5hne6nz6&ms=ltu&mt=1733676748&mv=m&mvi=3&pl=20&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=AGluJ3MwRgIhANcKZCZmGyTLrhs_-E-XDXibnF-3NbreC45uYRgABWjnAiEAkvkenjpxQErWFM-c1R7G9kHRZJqZILXMFAIcDnsIPiA%3D" type="video/mp4">
+                                <source src="https://storage.googleapis.com/app-kitchenvision/header_vid.mov" type="video/mp4">
                         </video>
                          <img src="https://i.ibb.co/pytJM8W/benamekhoda.png" class="center benameoo" >
                 </div>
@@ -231,7 +231,7 @@ st.markdown(
             </div>
         </div>
         <div class="timeline-img">
-                <iframe width="400" height="240" src="https://www.youtube.com/embed/4trCxsMAUHg?si=TcDekI6pa6Ibnk4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="400" height="240" src="https://www.youtube.com/embed/4trCxsMAUHg?autoplay=0&mute=1&controls=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <img class="img_full" style="position:absolute; margin-left:10px;" src="https://i.ibb.co/KDK59GY/Screenshot-2024-12-07-at-23-48-01.png" alt="Event Image 4">
                 <p class="note" >Validating ML model by creating a web app</p>
         </div>
@@ -385,7 +385,7 @@ st.write("Wherever I am, all my love goes to my root and my country as I would b
         "❤️" "🇮🇷" "🌐")
 st.markdown(
     """
-    <iframe  width="1400" height="240" src="https://www.youtube.com/embed/tsIwBqXL4UM?si=oDzb3KwBuSruevb2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe  width="400px" height="240" src="https://www.youtube.com/embed/tsIwBqXL4UM?si=oDzb3KwBuSruevb2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     """,
     unsafe_allow_html=True
 )
