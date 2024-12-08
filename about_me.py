@@ -184,7 +184,7 @@ st.title("")
 
 # add a photo of element
 # rotate the photo
-st.image("./res/me.png", caption="Me", width=350, output_format="JPEG")
+st.image("https://i.ibb.co/nwLL0FB/me.png", caption="Me", width=350, output_format="JPEG")
 
 
 
