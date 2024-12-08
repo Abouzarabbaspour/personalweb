@@ -6,6 +6,55 @@
 # fifth segment about my hobbies
 import streamlit as st 
 
+
+# center image
+st.markdown(
+    """
+    <style>
+    .main .block-container {
+        max-width: 1400px;  /* Adjust this value as needed */
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+     .header-container {
+        position: relative;
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    .header-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+    }
+    .note{
+     position:absolute;
+     font-size: 0.9em;
+
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Custom CSS for vertical line timeline
 st.markdown(
     """
@@ -119,53 +168,6 @@ st.markdown(
 # Add other Streamlit content
 # st.write("This is a vertical timeline aligned to the left side of the page.")
 
-# center image
-st.markdown(
-    """
-    <style>
-    .main .block-container {
-        max-width: 100%;  /* Adjust this value as needed */
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-    }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-     .header-container {
-        position: relative;
-        height: 300px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 2.5em;
-        font-weight: bold;
-        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    }
-    .header-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 0;
-    }
-    .note{
-     position:absolute;
-     font-size: 0.9em;
-
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # st.markdown("""<div> <img src="https://i.ibb.co/pytJM8W/benamekhoda.png" class="center benameoo" > </div>""", unsafe_allow_html=True)
 # st.image("./res/benamekhoda.png", use_column_width=False, width=90)
