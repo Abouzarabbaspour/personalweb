@@ -13,7 +13,7 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        max-width: 80%;  /* Adjust this value as needed */
+        max-width: 100%;  /* Adjust this value as needed */
         padding-top: 1rem;
         padding-right: 1rem;
         padding-left: 1rem;
@@ -64,13 +64,13 @@ st.markdown(
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 5px; /* Adjust for positioning */
+        margin-left: 0px; /* Adjust for positioning */
         position: relative;
     }
 
     .timeline-line {
         position: absolute;
-        left: 120px; /* Adjust to align with dots */
+        left: 110px; /* Adjust to align with dots */
         top: 0;
         bottom: 0;
         width: 2px;
@@ -97,7 +97,7 @@ st.markdown(
 
     .timeline-dot {
         position: absolute;
-        left: 115px; /* Align with the timeline line */
+        left: 105px; /* Align with the timeline line */
         width: 12px;
         height: 12px;
         background-color: #007BFF;
@@ -105,7 +105,7 @@ st.markdown(
     }
 
     .timeline-text {
-        margin-left: 140px; /* Space between dot and text */
+        margin-left: 120px; /* Space between dot and text */
         font-size: 14px;
     }
    .timeline-img {
