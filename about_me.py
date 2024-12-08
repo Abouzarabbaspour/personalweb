@@ -64,7 +64,7 @@ st.markdown(
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 20px; /* Adjust for positioning */
+        margin-left: 5px; /* Adjust for positioning */
         position: relative;
     }
 
